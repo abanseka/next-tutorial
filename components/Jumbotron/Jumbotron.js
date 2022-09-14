@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Box, Heading, Button, Text } from "@chakra-ui/react";
+import { Box, Heading, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
 function Jumbotron() {
@@ -10,7 +10,7 @@ function Jumbotron() {
     <Box p={5}>
       <Heading color={"teal.600"}>Chateau de Chat</Heading>
 
-      <Text
+      <Box
         lineHeight={8}
         textAlign={"justify"}
         fontSize={20}
@@ -49,7 +49,7 @@ function Jumbotron() {
             <a>- Copied from petfinder.com -</a>
           </Link>
         </pre>
-      </Text>
+      </Box>
 
       <Button mt={5} bg="green.300" onClick={gotoCats}>
         Choose Your Pet
