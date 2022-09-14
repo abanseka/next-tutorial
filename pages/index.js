@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Flex p={2} w="70%" m={"20px auto"}>
+      <Flex p={2} w="60%" m={"20px auto"}>
         <Jumbotron />
       </Flex>
     </div>
