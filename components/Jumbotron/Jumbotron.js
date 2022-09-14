@@ -45,7 +45,9 @@ function Jumbotron() {
             letterSpacing: 0.5,
           }}
         >
-          <span>- Copied from petfinder.com -</span>
+          <Link href={"https://www.petfinder.com"}>
+            <a>- Copied from petfinder.com -</a>
+          </Link>
         </pre>
       </Text>
 
